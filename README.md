@@ -4,18 +4,18 @@ Client's Tests
 Lobby related
 ---------------------
 
-| Create_Game Test                                                                  |  Correct Response   |
+| Create_Game Test|  Correct Response   |
 |-----------------------------------------------------------------------|--------------|
-| Correct create                                                          | 			✔        |
-| Delete game when user lose connection                                          | 			✔        |
-| Cancel message                                                    | 			✔        |
+| Correct create| 			✔        |
+| Delete game when user lose connection| 			✔        |
+| Cancel message| 			✔        |
 
-| Join_Game Test                                                                  |  Correct Response   |
+| Join_Game Test|  Correct Response   |
 |-----------------------------------------------------------------------|--------------|
-| Correct join                                                          | 			✔        |
-| The Game is full                                                       | 			✔        |
-| The Game doesn't exist                                                       | 			✔        |
-| Correct Join with password                                                       | 			✔        |
+| Correct join| 			✔        |
+| The Game is full| 			✔        |
+| The Game doesn't exist| 			✔        |
+| Correct Join with password| 			✔        |
 
 Game related
 ---------------------
@@ -57,7 +57,7 @@ Each test uses the server of one team and a client of both teams.
 |-----------------------------------------------------------------------|---------------|---------------|
 |Get GAMES                                                          | ✔             | ✔             |
 |Game create successful                                                 | ✔             | ✔             |
-|Game join successful                                                   |               |               |
+|Game join successful                                                   | ✔             | ✔             |
 |Server deletes created game when client leaves                         | ✔             | ✔             |
 |Wait for opponent                                                      | ✔             | ✔             |
 |Place ships successful                                                 | ✔             | ✔             |
