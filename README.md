@@ -1,3 +1,32 @@
+Pre-interop Test (Groupe 4)
+===================================
+
+Wir haben uns mit Groupe 4 für drei mal getroffen. 
+Für die drei Termine haben wir in Info-Bau getroffen und haben Benjamins Switch benutzt.
+
+- Am 09.02.17
+    - Ziel:
+        - Erste Test auch wenn wir nicht alles fertig haben.
+    - Bugs:
+        - Kleine Bugs in Server. (z.B. Server hat dummy spiele am Anfang geschickt (sofort behoben))
+        - Client konnte nicht richtig plazieren, shiessen und moven (wurde nach dem treffen gefixed)
+- Am 18.02.17
+    - Ziel:
+        - Test der Client/Server funktionalitäten mit ein ander.
+    - Bugs:
+        - (x,y) waren getaucht
+        - Client hat nicht alle nachrichten richtig gehandelt, (wurde beim Treffen gefixed und nach dem Treffen verbessert)
+        - Neue test-cases entdenkt (z.B was passiert wenn ein Schiff in ein geschaussene feld fährt)
+- Am 23.02.17
+    - Ziel:
+        - Unsere Client und Server waren fertig. Wir wollten die aber mit den test-cases in den Tabellen unten testen.
+    - Bugs:
+        - Kleine UI bugs, die wir danach gefixed haben.
+
+##### Am ende hat alles einwandfrei funktioniert und konnten miteinander spielen.
+
+------------------------------------------------------------------------------------------------------------
+
 Client's Tests
 ================
 
