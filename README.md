@@ -1,29 +1,29 @@
-Pre-interop Test (Groupe 4)
+Pre-interop-Test (Gruppe 4)
 ===================================
 
-Wir haben uns mit Groupe 4 für drei mal getroffen. 
-Für die drei Termine haben wir in Info-Bau getroffen und haben Benjamins Switch benutzt.
+Wir haben uns drei Mal mit Gruppe 4 im Info-Bau getroffen.
+Zum Testen haben wir Benjamins Switch benutzt.
 
 - Am 09.02.17
     - Ziel:
-        - Erste Test auch wenn wir nicht alles fertig haben.
+        - Erste Tests, auch wenn beide Gruppen noch nicht alles fertig haben.
     - Bugs:
-        - Kleine Bugs in Server. (z.B. Server hat dummy spiele am Anfang geschickt (sofort behoben))
-        - Client konnte nicht richtig plazieren, shiessen und moven (wurde nach dem treffen gefixed)
+        - Kleine Bugs in Server. Unter anderem: Server hat noch Dummyspiele geschickt (sofort behoben) 
+        - Client konnte nicht richtig platzieren, schiessen und moven (wurde nach dem Treffen gefixt)
 - Am 18.02.17
     - Ziel:
-        - Test der Client/Server funktionalitäten mit ein ander.
+        - Test der Client/Server-Funktionalitäten mit 
     - Bugs:
-        - (x,y) waren getaucht
-        - Client hat nicht alle nachrichten richtig gehandelt, (wurde beim Treffen gefixed und nach dem Treffen verbessert)
-        - Neue test-cases entdenkt (z.B was passiert wenn ein Schiff in ein geschaussene feld fährt)
+        - (x,y) waren vertauscht
+        - Client hat nicht alle Nachrichten richtig verarbeitet, (wurde beim Treffen schnell gefixt und nach dem Treffen verbessert)
+        - Neue Test-Cases entdenkt (z.B. was passiert wenn ein Schiff in ein schon beschossenes Feld fährt)
 - Am 23.02.17
     - Ziel:
-        - Unsere Client und Server waren fertig. Wir wollten die aber mit den test-cases in den Tabellen unten testen.
+        - Unsere Client und Server waren fertig. Wir wollten die aber mit den Test-Cases in den Tabellen unten testen.
     - Bugs:
         - Kleine UI bugs, die wir danach gefixed haben.
 
-##### Am ende hat alles einwandfrei funktioniert und konnten miteinander spielen.
+##### Am Ende hat alles einwandfrei funktioniert und wir konnten miteinander spielen.
 
 ------------------------------------------------------------------------------------------------------------
 
@@ -52,7 +52,7 @@ Game related
 | Ship_Placement Test                                                                  |  Correct Response   |
 |-----------------------------------------------------------------------|--------------|
 | Correct ship placement                                                          | 			✔        |
-| The ship palcement has overlaping ships                                          | 			✔        |
+| The ship placement has overlaping ships                                          | 			✔        |
 | Too Many Ships are placed                                         | 			✔        |
 
 | Move Test                                                                  |  Correct Response   |
