@@ -8,7 +8,7 @@ Zum Testen haben wir Benjamins Switch benutzt.
     - Ziel:
         - Erste Tests, auch wenn beide Gruppen noch nicht alles fertig haben.
     - Bugs:
-        - Kleine Bugs in Server. Unter anderem: Server hat noch Dummyspiele geschickt (sofort behoben) 
+        - Kleine Bugs in Server. Unter anderem: Server hat noch Dummyspiele geschickt, Problem mit Senden und Parsen einer leeren GAMES-Nachricht, also wenn noch keine Spiele vorhanden sind (beide sofort behoben)
         - Client konnte nicht richtig platzieren, schiessen und moven (wurde nach dem Treffen gefixt)
 - Am 18.02.17
     - Ziel:
@@ -17,6 +17,11 @@ Zum Testen haben wir Benjamins Switch benutzt.
         - (x,y) waren vertauscht
         - Client hat nicht alle Nachrichten richtig verarbeitet, (wurde beim Treffen schnell gefixt und nach dem Treffen verbessert)
         - Neue Test-Cases entdenkt (z.B. was passiert wenn ein Schiff in ein schon beschossenes Feld fährt)
+        - Parsen von Chat-Nachrichten hatte ein Problem mit der Berechnung der Länge des Texts.
+        - Der Server stürzte ab, falls die Verbindung während des Parsens einer Nachricht verloren ging.
+        - Der Server akzeptierte mehrere CREATE-Nachrichten von einem User
+        - Der Server akzeptierte ein JOIN, obwohl ein User selbst ein Spiel gestartet hat
+        - Nach Diskussion mit der anderen Gruppe haben wir einen gesendeten Reason bei Ende des Spiels angepasst
 - Am 23.02.17
     - Ziel:
         - Unsere Client und Server waren fertig. Wir wollten die aber mit den Test-Cases in den Tabellen unten testen.
